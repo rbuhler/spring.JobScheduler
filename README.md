@@ -1,7 +1,5 @@
 # spring.JobScheduler
-
-# POM
-
+## POM
 ### Build
 ```
   <build>
@@ -14,8 +12,7 @@
     <artifactId>spring-boot-starter-actuator</artifactId>
 </dependency>
 ```
-
-# Manifest
+## Manifest
 ```
 applications:
 - name: JobScheduler
