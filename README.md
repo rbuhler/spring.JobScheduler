@@ -1,5 +1,11 @@
 # spring.JobScheduler
 
+## API endpoint
+- https://api.cf.eu10.hana.ondemand.com
+```
+$ cf push jobScheduler
+```
+
 ## Dependencies 
 
 ````aidl
@@ -29,3 +35,11 @@
 
 ## Stubs
 * 
+
+# POM
+```
+  <build>
+    <finalName>${project.artifactId}</finalName>
+    ...
+```
+# Manifest
