@@ -8,13 +8,12 @@
     <finalName>${project.artifactId}</finalName>
 ```
 ### Dependencies 
-
-````aidl
+```
 <dependency>
     <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-web</artifactId>
+    <artifactId>spring-boot-starter-actuator</artifactId>
 </dependency>
-````
+```
 
 # Manifest
 ```
