@@ -1,4 +1,4 @@
 applications:
-- name: JobScheduler
-  memory: 512MB
-  path: target/jobScheduler.jar
+                               - name: JobScheduler
+                                 memory: 512MB
+                                 path: target/jobScheduler.jar
